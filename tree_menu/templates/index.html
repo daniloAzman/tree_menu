@@ -1,0 +1,6 @@
+{% extends 'default.html' %}
+{% load draw_menu %}
+{% block content %}
+  <h1><a href="/">Древовидное меню</a></h1>
+  {% draw_menu 'main_menu' %}
+{% endblock %}
